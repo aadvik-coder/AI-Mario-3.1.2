@@ -1,0 +1,174 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-image: linear-gradient(to top right, #ff4242, #ff9442, #ffef42, #4542ff, #9d52ff);
+}
+.heading
+{
+font-size: 30px;
+text-align: left;
+width: 100%;
+margin: 0px; 
+background: linear-gradient(#ff5454 0%, #ff8754 50%, #fcff54 100%);
+color: #171717;
+text-shadow: 5px 5px 5px white;
+}
+.heading:hover{
+    background: linear-gradient(#5479ff 0%, #6054ff 50%, #7f54ff 100%);
+    color: white;
+    text-shadow: 5px 5px 5px #383778;
+}
+.heading h3{
+    display: inline;
+}
+.heading button{
+    float: right;
+
+}
+.btn-7 {
+    font-size: 25px;
+    background: linear-gradient(#4d4dff 0%, #8e4dff 100%);
+    border-radius: 5px;
+    width: auto;
+    height: 40px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    7px 7px 20px 5px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+    box-shadow: 2px 2px 5px grey;
+}
+
+.btn-7 {
+    background: linear-gradient(#4d4dff 0%, #8e4dff 100%);
+    line-height: 42px;
+    padding: 0;
+    border: none;
+    text-shadow: 5px 5px 5px #383778;
+}
+
+.btn-7 span {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-7:before,
+.btn-7:after {
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    background: #ff8754;
+    
+    transition: all 0.3s ease;
+}
+
+.btn-7:before {
+    height: 0%;
+    width: 2px;
+}
+
+.btn-7:after {
+    width: 0%;
+    height: 2px;
+}
+
+.btn-7:hover {
+    color: #ff8754;
+    background: transparent;
+    text-shadow: 5px 5px 5px white;
+}
+
+.btn-7:hover:before {
+    height: 100%;
+}
+
+.btn-7:hover:after {
+    width: 100%;
+}
+
+.btn-7 span:before,
+.btn-7 span:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background: #4d4dff;
+    
+    transition: all 0.3s ease;
+}
+
+.btn-7 span:before {
+    width: 2px;
+    height: 0%;
+}
+
+.btn-7 span:after {
+    height: 2px;
+    width: 0%;
+}
+
+.btn-7 span:hover:before {
+    height: 100%;
+}
+
+.btn-7 span:hover:after {
+    width: 100%;
+}
+.big_image{
+    width: 25%;
+}
+.p-tag{
+    font-size: 18px;
+    line-height: 2;
+    border-radius: 5px;
+    background: linear-gradient(#ff5454 0%, #ff8754 50%, #fcff54 100%);
+    color: #171717;
+    text-shadow: 5px 5px 5px white;
+
+}
+.p-tag:hover{
+    background: linear-gradient(#5479ff 0%, #6054ff 50%, #7f54ff 100%);
+    color: white;
+    text-shadow: 5px 5px 5px #383778;
+}
+.modal-dialog{
+    width: 90%;
+}
+
+.instruction_img{
+    display: inline-block;
+    width: 45%;
+}
+.modal-content{
+    background: linear-gradient(#ff5454 0%, #ff8754 50%, #fcff54 100%);
+} .modal-content:hover{
+    background: linear-gradient(#5479ff 0%, #6054ff 50%, #7f54ff 100%);
+}
+.source_footer{
+    position: fixed;
+    background: linear-gradient(#ff5454 0%, #ff8754 50%, #fcff54 100%);
+    bottom: 0;
+    width: 100%;
+    color: #171717;
+    line-height: 3;
+    text-align: center;
+    text-shadow: 5px 5px 5px white;
+} .source_footer:hover{
+    background: linear-gradient(#5479ff 0%, #6054ff 50%, #7f54ff 100%);
+    color: white;
+    text-shadow: 5px 5px 5px #383778;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
